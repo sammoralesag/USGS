@@ -40,13 +40,14 @@ class EqAdapter(
                 }
 
             }
-        }
 
+        }
     }
 
 }
 
-class EqDiff() : DiffUtil.ItemCallback<Eq>() {
+
+class EqDiff : DiffUtil.ItemCallback<Eq>() {
     override fun areItemsTheSame(oldItem: Eq, newItem: Eq): Boolean {
         return oldItem.id == newItem.id
     }

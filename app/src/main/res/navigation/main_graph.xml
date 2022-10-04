@@ -6,15 +6,6 @@
     app:startDestination="@id/eqFragment">
 
     <fragment
-        android:id="@+id/eqFragment"
-        android:name="com.example.usgs.ui.main_screen.EqFragment"
-        android:label="fragment_eq"
-        tools:layout="@layout/fragment_eq" >
-        <action
-            android:id="@+id/action_eqFragment_to_detailsFragment"
-            app:destination="@id/detailsFragment" />
-    </fragment>
-    <fragment
         android:id="@+id/detailsFragment"
         android:name="com.example.usgs.ui.details_screen.DetailsFragment"
         android:label="fragment_details"
@@ -22,5 +13,14 @@
         <argument
             android:name="Eq"
             app:argType="com.example.usgs.domain.models.Eq" />
+    </fragment>
+    <fragment
+        android:id="@+id/eqFragment"
+        android:name="com.example.usgs.ui.main_screen.EqFragment"
+        android:label="fragment_eq"
+        tools:layout="@layout/fragment_eq" >
+        <action
+            android:id="@+id/action_eqFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
     </fragment>
 </navigation>

@@ -1,12 +1,13 @@
-package com.example.usgs.data.remote
+package com.example.usgs.data
 
-import com.example.usgs.data.remote.models.EqResponse
+import com.example.usgs.data.remote.EqAPI
+import com.example.usgs.data.remote.models.EqResponseItem
 import javax.inject.Inject
 
 class NetworkDataSource @Inject constructor(
     private val api: EqAPI
 ) {
-    suspend fun getAllEq(): List<EqResponse>? {
+    suspend fun getAllEq(): EqResponseItem? {
         return try {
             val response = api.getAllEq()
             if (response.isSuccessful) {

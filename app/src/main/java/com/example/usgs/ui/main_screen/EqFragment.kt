@@ -36,7 +36,9 @@ class EqFragment : Fragment() {
 
     private fun onEqClicked(eq: Eq) {
         findNavController().navigate(
-            EqFragmentDirections.actionEqFragmentToDetailsFragment(eq))
+            EqFragmentDirections.actionEqFragmentToDetailsFragment(eq)
+        )
     }
+
 
 }

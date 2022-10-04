@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">USGS</string>
+    <string name="arrow">arrow</string>
+    <string name="floating">floating</string>
 </resources>
