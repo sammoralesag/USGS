@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#BC0606"
     android:background="@drawable/arthquake_icon"
+    android:backgroundTint="#BC0606"
     tools:context=".ui.main_screen.EqFragment">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -13,18 +13,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/item_eq"/>
+        tools:listitem="@layout/item_eq" />
 
 
-        <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floating_button"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_margin="26dp"
-            android:src="@drawable/ic_refresh"
-            android:backgroundTint="@android:color/darker_gray"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:contentDescription="@string/floating" />-->
+    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="26dp"
+        android:src="@drawable/ic_refresh"
+        android:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="@string/floating" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

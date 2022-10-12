@@ -10,6 +10,5 @@ data class Feature(
     val id: String?,
     @SerializedName("properties")
     val properties: Properties?,
-    @SerializedName("type")
-    val type: String?
+
 )

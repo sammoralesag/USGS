@@ -2,4 +2,9 @@
     <string name="app_name">USGS</string>
     <string name="arrow">arrow</string>
     <string name="floating">floating</string>
+    <string name="magnitude_format">%.2f</string>
+    <string name="coordinates_format">%.4f</string>
+    <string name="icon">icon warning</string>
+    <string name="icon_time">icon_time</string>
+    <string name="image">image</string>
 </resources>
